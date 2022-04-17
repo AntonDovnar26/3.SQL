@@ -2,7 +2,7 @@
 select * from Students
 
 -- 2. Вывести всех студентов в таблице
-
+select * from Students
 
 --3. Вывести только Id пользователей
 select id from students
