@@ -78,3 +78,12 @@ select * from students where password = '12333' or password = '1m313' or passwor
 
 -- 27. Вывести пользователей где created_on равен 2020-10-03 00:00:00, 2021-05-19 00:00:00, 2021-03-26 00:00:00
 select * from students where created_on = '2020-10-03 00:00:00' or created_on = '2021-05-19 00:00:00' or created_on = '2021-03-26 00:00:00'
+
+-- 28. Вывести минимальный id 
+select min(id) from students;
+
+-- 29. Вывести максимальный.
+select max(id) from students;
+
+-- 30. Вывести количество пользователей
+select count(id) from students;
